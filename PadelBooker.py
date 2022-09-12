@@ -13,16 +13,16 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 def indices(lst, item):
     return [i for i, x in enumerate(lst) if x == item]
-username_email = "saajanshah2000@gmail.com"
-passw = "AutoPadel1"
+username_email = ""
+passw = ""
 
-card = 4165490063762260
-expiry = 1226
-cvv = 225
+card = 
+expiry = 
+cvv = 
 day = "Sun" #choose from Mon, Tue, Wed, Thu, Fri, Sat, Sun
 bookingtime= "0900" #set in 24hr hh00 format, denotes start time for booking
 
-driver = webdriver.Chrome(r"C:\Users\Saajan Shah\Desktop\chromedriver.exe")
+driver = webdriver.Chrome(r"C:\Users\Saajan Shah\Desktop\chromedriver.exe") #set location of chromedriver.exe
 
 driver.get("https://www.openplay.co.uk/booking/place/154")
 
